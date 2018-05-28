@@ -1,0 +1,512 @@
+diag(v)
+v<-c(1,2,3)
+diag(v)
+rank(v)
+cb<-cbind(c(1,20),c(2,1))
+rank(cb)
+?installed.packages
+?v
+install.packages("xkcd")
+volunteers <- data.frame(year=c(2007:2011),
+number=c(56470,56998,59686,61783,64251))
+volunteers
+library(ggplot2)
+library(xkcd)
+volunteers <- data.frame(year=c(2007:2011),
+number=c(56470,56998,59686,61783,64251))
+volunteers
+p<- ggplot() + xkcdrect(aes(xmin = year,
+xmax= year + 0.3,
+ymin=number,
+ymax=number + 3600),
+volunteers, fill="red",colour="black"
+)
+p
+p
+p<- ggplot() + xkcdrect(aes(xmin = year,
+xmax= year + 0.1,
+ymin=number,
+ymax=number + 3600),
+volunteers, fill="red",colour="black"
+)
+p
+p<- ggplot() + xkcdrect(aes(xmin = year,
+xmax= year + 0.5,
+ymin=number,
+ymax=number + 3600),
+volunteers, fill="red",colour="black"
+)
+p
+p<- ggplot() + xkcdrect(aes(xmin = year,
+xmax= year + 0.5,
+ymin=number,
+ymax=number + 4000),
+volunteers, fill="red",colour="black"
+)
+p
+36
+36
+p<- ggplot() + xkcdrect(aes(xmin = year,
+xmax= year + 0.5,
+ymin=number,
+ymax=number + 3600),
+volunteers, fill="red",colour="black"
+)
+p
+p<- ggplot() + xkcdrect(aes(xmin = year,
+xmax= year + 0.5,
+ymin=number,
+ymax=number),
+volunteers, fill="red",colour="black"
+)
+p
+source('D:/Users/SUDPATEL/Desktop/gitsources/R/CRAN.R', echo=TRUE)
+p<- ggplot() + xkcdrect(aes(xmin = year,
+xmax= year + 0.5,
+ymin=number,
+ymax=number + 10000),
+volunteers, fill="red",colour="black"
+)
+source('D:/Users/SUDPATEL/Desktop/gitsources/R/CRAN.R', echo=TRUE)
+#to install packages use below command
+#install.packages("name of packages)"
+# CRAN - Comprehensive R Archive packages
+library(ggplot2)
+library(xkcd)
+volunteers <- data.frame(year=c(2007:2011),
+number=c(56470,56998,59686,61783,64251))
+volunteers
+p<- ggplot() + xkcdrect(aes(xmin = year,
+xmax= year + 0.5,
+ymin=number,
+ymax=number + 10000),
+volunteers, fill="red",colour="yellow"
+)
+p
+library(ggplot2)
+library(xkcd)
+volunteers <- data.frame(year=c(2007:2011),
+number=c(56470,56998,59686,61783,64251))
+volunteers
+p<- ggplot() + xkcdrect(aes(xmin = year,
+xmax= year + 0.3,
+ymin=number,
+ymax=number + 10000),
+volunteers, fill="red",colour="yellow"
+)
+p
+p<- ggplot() + xkcdrect(aes(xmin = year,
+xmax= year + 0.3,
+ymin=number,
+ymax=number + 3600),
+volunteers, fill="red",colour="yellow"
+)
+p<- ggplot() + xkcdrect(aes(xmin = year,
+xmax= year + 0.3,
+ymin=number,
+ymax=number + 3600),
+volunteers, fill="red",colour="yellow"
+)
+stddev <- function(v) {
+return(sqrt(var(v)))
+}
+stddev(1:10)
+myfunc <- function(a,b) {
+a*b
+}
+myfunc(2,2)
+myfunc1 <- function(a,b=2) {
+a*b
+}
+mufunc1(10)
+myfunc1 <- function(a,b=2) {
+a*b
+}
+myfunc1(1)
+typeof(myfunc)
+typeof(ls())
+typeof(ls)
+runif(1)
+runif(1)
+runif(1)
+runif(10)
+runif(10)
+runif(10)
+runif(10)
+runif(10)
+runif(1,1,100)
+sample = sample(1:10,1)
+sample
+sample = sample(1:10,1)
+sample
+sample = sample(1:10,10)
+sample
+sample = sample(1:10,10)
+sample
+sample = sample(1:10,10)
+sample
+sample = sample(1:10,10)
+sample
+sample = sample(1:10,10)
+sample
+sample = sample(1:10,10)
+sample
+sample = sample(1:10,10)
+sample
+sample = sample(1:10,10,replace=TRUE)
+sample
+sample = sample(1:10,10,replace=TRUE)
+sample
+sample = sample(1:10,10,replace=TRUE)
+sample
+sample = sample(1:10,10,replace=TRUE)
+sample
+sample = sample(1:10,10,replace=TRUE)
+sample
+sample = sample(1:10,10,replace=TRUE)
+sample
+sample = sample(1:10,10,replace=TRUE)
+sample
+sample = sample(1:10,10,replace=TRUE)
+sample
+sample = sample(1:10,10,replace=TRUE)
+sample
+sample = sample(1:10,10,replace=F)
+sample
+sample = sample(1:10,10,replace=F)
+sample
+sample = sample(1:10,10,replace=F)
+sample
+sample = sample(1:10,10,replace=F)
+sample
+sample = sample(1:10,10,replace=F)
+sample
+sample = sample(1:10,10,replace=F)
+sample
+sample = sample(1:10,10,replace=F)
+sample
+sample = sample(1:10,10,replace=F)
+sample
+rnorm(100, mean=0,sd=2)
+rn<=rnorm(500, mean=0,sd=2)
+plot(rn)
+plot(rn)
+rn<=rnorm(500, mean=0,sd=2)
+rn<-rnorm(500, mean=0,sd=2)
+plot(rn)
+rn<-rnorm(5000, mean=0,sd=2)
+rn<-rnorm(5000, mean=0,sd=2)
+?rnorm
+rbinom(10,1,0.5)
+rbinom(10,1,0.5)
+rbinom(10,1,0.5)
+rbinom(10,1,0.5)
+rbinom(10,1,0.5)
+rbinom(10,1,0.5)
+rbinom(100,1,0.5)
+rbinom(100,1,0.2)
+rbinom(100,1,0.2)
+rbinom(100,1,0.2)
+rbinom(100,1,0.2)
+inc<- function(a) {
+a<- a + 1
+}
+#decrement by 1
+dec <- function(a) {
+a<- a - 1
+}
+recip<-function(a) {
+if(a==0)
+stop("division by 0 occurred")
+a<-1 / a
+}
+myfunc<- function(a) {
+x<-recip(inc(a))
+y<-recip(dec(a))
+x*y
+}
+myfunc(10)
+myfunc(1)
+myfunc(-1)
+traceback()
+debug(myfunc)
+myfunc(-1)
+myfunc(10)
+myfunc<- function(a) {
+browser()
+x<-recip(inc(a))
+y<-recip(dec(a))
+x*y
+}
+myfunc(10)
+options(error=recover)
+myfunc(1)
+myfunc<- function(a) {
+# browser()
+x<-recip(inc(a))
+y<-recip(dec(a))
+x*y
+}
+myfunc(1)
+a
+ls()
+a
+x
+2
+0
+0
+options(error=NULL)
+scan()
+7:
+scan()
+scan()
+v<-scan()
+v
+z<-scan(sep=";")
+z
+# used to take input from user form console
+scan()
+print(z)
+cat(v,z)
+1
+source('D:/Users/SUDPATEL/Desktop/gitsources/R/inputoutputfun.R', echo=TRUE)
+?sprintf
+paste(letters,1:10)
+csv
+csv<-read.csv("C2ImportCalEventSample.csv")
+csv
+csv<-read.csv("C2ImportCalEventSample.csv")
+csv
+csv<-read.csv("C2ImportCalEventSample")
+csv<-read.csv("C2ImportCalEventSample.csv")
+csv<-read.csv("C2ImportCalEventSample.csv")
+csv<-read.csv("C2ImportCalEventSample.csv")
+read.csv("C2ImportCalEventSample.csv")
+source('D:/Users/SUDPATEL/Desktop/gitsources/R/importcsv.R')
+C2ImportCalEventSample <- read.csv("D:/Users/SUDPATEL/Desktop/gitsources/R/C2ImportCalEventSample.csv")
+View(C2ImportCalEventSample)
+read.csv("D:/Users/SUDPATEL/Desktop/gitsources/R/C2ImportCalEventSample.csv")
+csv<-read.csv("D:/Users/SUDPATEL/Desktop/gitsources/R/C2ImportCalEventSample.csv")
+csv
+csv$1
+csv$Start Date
+csv$"Start Date"
+csv<-read.csv("D:/Users/SUDPATEL/Desktop/gitsources/R/C2ImportCalEventSample.csv")
+csv$SD
+csv<-read.csv("D:/Users/SUDPATEL/Desktop/gitsources/R/C2ImportCalEventSample.csv")
+csv$ST
+csv$CDES
+csv<-read.csv("D:/Users/SUDPATEL/Desktop/gitsources/R/C2ImportCalEventSample.csv")
+csv
+csv$EDES
+install.packages("gdata")
+require("gdata")
+getcwd()
+getwd()
+setwd("D:/Users/SUDPATEL/Desktop/gitsources/R/")
+getwd()
+ss<-read.xls("C2ImportCalEventSample.xlsx")
+V<-c(1,2,3,NA,5,6,NA)
+v
+V<-c(1,2,3,NA,5,6,NA)
+v<-c(1,2,3,NA,5,6,NA)
+v
+is.na(v)
+any(is.na)
+any(is.na(v))
+mean(v)
+mean(v,na.rm=TRUE)
+summary(v)
+summnar(v)
+sort(v)
+summary(v)
+sort(v)
+sort(v, na.last=TRUE)
+v
+w[w==-1] <NA
+w<-c(1,2,2,-2,-1,1,2,-1)
+w[w==-1] <NA
+w
+w[w==-1] <- NA
+w
+sort(w)
+data()
+library(MASS)
+data()
+data(phones)
+phones
+$year
+example(hist
+example(hist)
+?example(hist)
+example(hist)
+example(hist)
+plot(phones)
+plot(AirPassengers)
+plot(AirPassengers)
+plot(AirPassengers)
+plot(AirPassengers)
+AirPassengers
+data("morley")
+boxplot(morley)
+boxplot(speed ~ Expt, morley,xlab="Experiment No.",ylab="speed of light")
+boxplot(Speed ~ Expt, morley,xlab="Experiment No.",ylab="speed of light")
+AirPassengers
+mean(AirPassengers)
+cat("monthly aveages")
+mean(AirPassengers)
+mean(AirPassengers, trim = 0.5)
+median(AirPassengers)
+trees()
+data(trees)
+trees
+trees[,2]
+median(trees[,2])
+mean(trees[,2])
+v<- c(trees[,2], NA)
+median(v)
+median(v, na.rm = NA)
+median(v, na.rm = TRUE)
+MyMode <- function(x) {
+sort(table(x), decreasing = TRUE)
+}
+AltMode <- function(x) {
+ux <- unique(x)
+ux[which.max(tabulate(match(x,ux)))]
+}
+data("presidents")
+?presidents
+x <- presidents
+MyMode(x)
+m = MyMode(x)
+m
+m = MyMode(x)
+m
+m = MyMode(x)
+#mode
+MyMode <- function(x) {
+sort(table(x), decreasing = TRUE[1])
+}
+x <- presidents
+m = MyMode(x)
+m
+m = MyMode(x)
+m
+AirPassengers
+cat("monthly aveages")
+mean(AirPassengers)
+#trim 0.5% from both end of dataset
+mean(AirPassengers, trim = 0.5)
+#means 9s zero when NA in list
+median(AirPassengers)
+#Median
+data(trees)
+trees
+trees[,2]
+median(trees[,2])
+mean(trees[,2])
+v<- c(trees[,2], NA)
+median(v)
+median(v, na.rm = TRUE)
+#mode
+MyMode <- function(x) {
+sort(table(x), decreasing = TRUE[1])
+}
+AltMode <- function(x) {
+ux <- unique(x)
+ux[which.max(tabulate(match(x,ux)))]
+}
+data("presidents")
+# ?presidents
+x <- presidents
+m = MyMode(x)
+m
+data("presidents")
+# ?presidents
+x <- presidents
+m = MyMode(x)
+m
+MyMode <- function(x) {
+sort(table(x), decreasing = TRUE)[1]
+}
+x <- presidents
+m = MyMode(x)
+m
+as.numeric(m)
+as.numeric(names(m))
+v<- sample(1:100:10           )
+v
+v<- sample(1:100:10           )
+v
+v<- sample(1:100:10)
+v
+v<- sample(1:100,10)
+v
+var(v)
+sd(v)
+source('D:/Users/SUDPATEL/Desktop/gitsources/R/statistiscsmean.R', echo=TRUE)
+v<- sample(1:100,10, NA)
+v
+var(v)
+sd(v)
+v<- c(sample(1:100,10), NA)
+v
+var(v)
+sd(v)
+v<- c(sample(1:100,10), NA)
+v
+var(v, na.rm = TRUE)
+sd(v, na.rm =TRUE)
+?faithful
+data("faithful")
+ff = data("faithful")
+ff
+ff = data("faithful")
+ff
+ff
+ff = head(faithful)
+ff
+e<- faithful$eruptions
+w<- faithful$waiting
+e
+w
+plot(e,w)
+cov(w,e)
+cor(w,e)
+cor(w,e, method="spearman")
+cor(w,e, method="kendall")
+cor(w,e, method="kendall" , use ="everything")
+data()
+?airquality
+?airquality
+head(airquality)
+table(Ozhi =Ozone > 80, Month)
+table(OzHi =Ozone > 80, Month)
+t = head(airquality)
+table(OzHi =t$Ozone > 80, Month)
+table(OzHi =t$Ozone > 80, t$Month)
+head(survey)
+View(ff)
+View(MyMode)
+head(survey)
+table(smoke)
+sr =head(survey)
+table(sr$smoke)
+attach(survey)
+table(smoke)
+head(survey)
+table(smoke)
+table(Smoke)
+table(Sex,Smoke)
+table(Sex,Smoke,useNA = "ifany")
+pie(share, browsers,colors)
+browsers <-c("chrome", "IE", "Opera", "firefox", "safari", "other")
+share <- c(38,19,20,32,16,3.2)
+colors <- c("red","green","yellow", "blue", "orange","cyan")
+pie(share, browsers,colors)
+pie(share, browsers,col=colors)
+browsers <-c("chrome", "IE", "Opera", "firefox", "safari", "other")
+share <- c(38,19,20,32,16,3.2)
+colors <- c("red","green","yellow", "blue", "orange","cyan")
+pie(share, browsers,col=colors)
+savehistory("D:/Users/SUDPATEL/Desktop/gitsources/R/History.txt")
